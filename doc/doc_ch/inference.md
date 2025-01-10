@@ -298,7 +298,7 @@ Predicts of ./doc/imgs_words/korean/1.jpg:('바탕으로', 0.9948904)
 ### 文本方向分类模型推理
 
 ```bash
-python3 ./tools/infer/predict_cls.py --image_dir ./doc/imgs_words --model_path your_cls_pth_path.pth
+python3 ./tools/infer/predict_cls.py --image_dir ./doc/imgs_words --cls_model_path your_cls_pth_path.pth
 ```
 
 ![](../imgs_words/ch/word_1.jpg)
